@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.titulo {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    color: #212529;
+}
+
+h2, h3{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#btnJugar{
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+#botonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    h2, h3{
+        font-size: 1rem
+    }
+}
+
+.point{
+    color: rgb(141, 220, 23);
+}
+
+.console{
+    color: red;
+}
+
+body{
+    background-color: beige;
+}
